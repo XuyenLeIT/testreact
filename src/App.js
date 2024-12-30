@@ -7,6 +7,7 @@ function App() {
   const [title,setTitle] = useState("home page")
   const [data,setData] = useState([])
   const [url,setUrl] = useState("posts")
+  const [product,setProduct] = useState({})
   // 1.UseEffect duoc goi sau khi component duoc mount vao dom va render
   // ra UI
   // 2.UseEffect de xu ly cac 
